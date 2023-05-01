@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  web:
+    image: rossedlin/laravel:8.1
+    container_name: laravel-web
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www
