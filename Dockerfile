@@ -3,8 +3,8 @@ FROM php:8.1-apache
 #
 # Install Core
 #
-RUN apt get update; \
-    apt get install -y git zip unzip; \
+RUN apt update; \
+    apt install -y git zip unzip; \
     rm -rf /var/lib/apt/lists/*;
 
 #
