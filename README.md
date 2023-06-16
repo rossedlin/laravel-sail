@@ -14,10 +14,12 @@ Todo
 
 - PHP v8.2
 - Composer v2.5
-- Docker Desktop
-- Web Server (HTTPS)
 
 ## Installation
 
+- Install Docker Desktop
 - `composer create-project laravel/laravel laravel-sail`
 - `composer require laravel/sail --dev`
+- `php artisan sail:install`
+  - 0 = MySQL
+- `./vendor/bin/sail up`
