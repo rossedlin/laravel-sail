@@ -8,8 +8,6 @@
 
 https://laravel.com/docs/10.x/sail
 
-Todo
-
 ## Requirements
 
 - PHP v8.2
