@@ -16,8 +16,13 @@ https://laravel.com/docs/10.x/sail
 ## Installation
 
 - Install Docker Desktop
-- `composer create-project laravel/laravel laravel-sail`
-- `composer require laravel/sail --dev`
-- `php artisan sail:install`
-  - 0 = MySQL
-- `./vendor/bin/sail up`
+  - https://www.docker.com/
+  - Download
+  - Install
+- Open up terminal
+  - `composer create-project laravel/laravel laravel-sail`
+  - `cd laravel-sail`
+  - `composer require laravel/sail --dev`
+  - `php artisan sail:install`
+    - 0 = MySQL
+  - `./vendor/bin/sail up`
